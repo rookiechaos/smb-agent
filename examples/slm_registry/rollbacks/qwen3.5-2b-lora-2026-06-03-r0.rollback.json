@@ -1,0 +1,9 @@
+{
+  "rolled_back_from_version": "qwen3.5-2b-lora-2026-06-03-r0",
+  "restored_version": "qwen3.5-2b-lora-2026-06-03-r1",
+  "rolled_back_at": "2026-06-04T01:11:20+00:00",
+  "rolled_back_by": "human:admin@example.com",
+  "reason": "quality regressed",
+  "eval_report_path": "slm/registry/reports/qwen3.5-2b-lora-2026-06-03-r0.eval.json",
+  "promotion_request_path": "slm/registry/promotion_requests/qwen3.5-2b-lora-2026-06-03-r0.promotion.json"
+}

@@ -1,0 +1,16 @@
+{
+  "candidate_version": "qwen3.5-2b-lora-2026-06-03-r1",
+  "previous_active_version": "qwen3.5-2b-lora-2026-05-27-r4",
+  "eval_report_path": "slm/registry/reports/qwen3.5-2b-lora-2026-06-03-r1.eval.json",
+  "requested_at": "2026-06-03T07:20:00+00:00",
+  "requested_by": "system:weekly-slm-train",
+  "status": "pending",
+  "approved_by": null,
+  "approved_at": null,
+  "rejected_by": null,
+  "rejected_at": null,
+  "rejection_reason": null,
+  "notes": [
+    "Awaiting admin promotion review."
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "candidate_version": "qwen3.5-2b-lora-2026-06-03-r1",
+  "previous_active_version": null,
+  "eval_report_path": "slm/registry/reports/qwen3.5-2b-lora-2026-06-03-r1.eval.json",
+  "requested_at": "2026-06-04T01:11:20+00:00",
+  "requested_by": "system:weekly-slm-train",
+  "status": "approved",
+  "approved_by": "human:admin@example.com",
+  "approved_at": "2026-06-04T01:11:20+00:00",
+  "rejected_by": null,
+  "rejected_at": null,
+  "rejection_reason": null,
+  "notes": [
+    "weekly candidate"
+  ]
+}

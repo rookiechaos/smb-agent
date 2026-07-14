@@ -1,0 +1,9 @@
+{
+  "rolled_back_from_version": "qwen3.5-2b-lora-2026-06-03-r1",
+  "restored_version": "qwen3.5-2b-lora-2026-05-27-r4",
+  "rolled_back_at": "2026-06-04T04:00:00+00:00",
+  "rolled_back_by": "human:admin@example.com",
+  "reason": "Observed worse routing quality after promotion; revert immediately.",
+  "eval_report_path": "slm/registry/reports/qwen3.5-2b-lora-2026-06-03-r1.eval.json",
+  "promotion_request_path": "slm/registry/promotion_requests/qwen3.5-2b-lora-2026-06-03-r1.promotion.json"
+}

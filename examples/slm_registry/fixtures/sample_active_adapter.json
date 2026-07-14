@@ -1,0 +1,8 @@
+{
+  "active_version": "qwen3.5-2b-lora-2026-05-27-r4",
+  "previous_version": "qwen3.5-2b-lora-2026-05-20-r3",
+  "activated_at": "2026-05-28T01:00:00+00:00",
+  "activated_by": "human:admin@example.com",
+  "eval_report_path": "slm/registry/reports/qwen3.5-2b-lora-2026-05-27-r4.eval.json",
+  "promotion_request_path": "slm/registry/promotion_requests/qwen3.5-2b-lora-2026-05-27-r4.promotion.json"
+}

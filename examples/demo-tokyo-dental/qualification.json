@@ -1,0 +1,7 @@
+{
+  "customer_id": "demo-tokyo-dental",
+  "go": true,
+  "recommended_tier": "growth",
+  "summary_ja": "東京都内の中規模歯科クリニック（スタッフ8名）。患者からの問い合わせと予約をAIで対応したいというニーズが明確で、Growthティアの規模・予算感に適合します。",
+  "reasoning_en": "Mid-sized Tokyo dental clinic, 8 staff. Wants AI for patient inquiries + booking. Growth tier matches the scope (3-5 skills, multi-page site, 2-3 integrations)."
+}

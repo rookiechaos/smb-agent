@@ -1,0 +1,8 @@
+{
+  "transport": "google-calendar",
+  "client_id": "<PLACEHOLDER>",
+  "client_secret": "<PLACEHOLDER>",
+  "refresh_token": "<PLACEHOLDER>",
+  "calendar_id": "<CALENDAR_ID_EMAIL>",
+  "timezone": "Asia/Tokyo"
+}

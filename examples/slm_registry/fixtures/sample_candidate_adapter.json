@@ -1,0 +1,15 @@
+{
+  "adapter_version": "qwen3.5-2b-lora-2026-06-03-r1",
+  "base_model": "Qwen/Qwen3.5-2B-Instruct",
+  "training_kind": "lora",
+  "created_at": "2026-06-03T06:00:00+00:00",
+  "dataset_snapshot_id": "slm-dataset-2026-06-03-weekly",
+  "train_config_ref": "configs/slm_lora_weekly_v1.json",
+  "artifact_path": "slm/adapters/qwen3.5-2b-lora-2026-06-03-r1",
+  "eval_report_path": "slm/registry/reports/qwen3.5-2b-lora-2026-06-03-r1.eval.json",
+  "status": "candidate",
+  "notes": [
+    "Weekly night-time training candidate.",
+    "Advisory tasks only."
+  ]
+}

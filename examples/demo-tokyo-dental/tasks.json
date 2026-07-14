@@ -1,0 +1,42 @@
+{
+  "tier": "growth",
+  "summary": "Branded site + 4 agent skills + 2 integrations for a Tokyo dental clinic.",
+  "landing_page": {
+    "pages": ["/", "/booking"],
+    "hero_copy_outline": "Clean, welcoming hero — clinic name + tagline + primary CTA",
+    "primary_cta": "今すぐ予約",
+    "sections": ["hero", "services", "hours", "contact", "footer"]
+  },
+  "agent_skills": [
+    {
+      "name": "understand-white-dental",
+      "description": "Foundational context skill about デモ東京ホワイトデンタル.",
+      "system_prompt_outline": "Clinic name, location, hours, services, practitioners, languages, insurance. No clinical advice."
+    },
+    {
+      "name": "book-appointment",
+      "description": "Schedules new appointments for the clinic.",
+      "system_prompt_outline": "Collect name + reason + preferred time + phone + new/returning. Route to book-viewing integration."
+    },
+    {
+      "name": "answer-faq",
+      "description": "Answers procedural questions about the clinic.",
+      "system_prompt_outline": "Hours/insurance/services/what-to-bring. Defer all clinical to a human."
+    },
+    {
+      "name": "follow-up",
+      "description": "Post-visit reminders, care-instructions echo, satisfaction prompt.",
+      "system_prompt_outline": "Quiet 21-08. Never reinterpret care instructions."
+    }
+  ],
+  "integrations": [
+    {
+      "name": "forward-to-clinic",
+      "purpose": "Forwards booking requests + follow-up replies to the clinic's email."
+    },
+    {
+      "name": "book-viewing",
+      "purpose": "Creates Google Calendar events for new appointments."
+    }
+  ]
+}

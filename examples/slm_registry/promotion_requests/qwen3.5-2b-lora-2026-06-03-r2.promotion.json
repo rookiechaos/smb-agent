@@ -1,0 +1,14 @@
+{
+  "candidate_version": "qwen3.5-2b-lora-2026-06-03-r2",
+  "previous_active_version": "qwen3.5-2b-lora-2026-06-03-r1",
+  "eval_report_path": "slm/registry/reports/qwen3.5-2b-lora-2026-06-03-r2.eval.json",
+  "requested_at": "2026-06-04T01:11:20+00:00",
+  "requested_by": "system:weekly-slm-train",
+  "status": "rejected",
+  "approved_by": null,
+  "approved_at": null,
+  "rejected_by": "human:admin@example.com",
+  "rejected_at": "2026-06-04T01:11:20+00:00",
+  "rejection_reason": "holdout regression",
+  "notes": []
+}

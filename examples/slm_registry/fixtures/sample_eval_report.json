@@ -1,0 +1,14 @@
+{
+  "candidate_version": "qwen3.5-2b-lora-2026-06-03-r1",
+  "compared_to_version": "qwen3.5-2b-lora-2026-05-27-r4",
+  "generated_at": "2026-06-03T07:10:00+00:00",
+  "routing_accuracy": 0.91,
+  "employee_routing_accuracy": 0.89,
+  "loop_advice_usefulness": 0.84,
+  "context_refresh_precision": 0.88,
+  "false_confidence_rate": 0.06,
+  "missed_escalation_rate": 0.03,
+  "better_than_current": true,
+  "summary": "Candidate improves routing and slightly lowers missed escalation on the weekly holdout set.",
+  "holdout_dataset_snapshot_id": "slm-dataset-2026-06-03-holdout"
+}

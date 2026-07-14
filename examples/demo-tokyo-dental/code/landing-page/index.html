@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{CLINIC_NAME}}</title>
+  <style>
+    :root { --ink: #1b3a4b; --sky: #e8f3f7; --accent: #2c8aa0; }
+    * { box-sizing: border-box; }
+    body { font-family: -apple-system, "Hiragino Kaku Gothic ProN", sans-serif;
+           margin: 0; color: var(--ink); line-height: 1.6; }
+    header { background: var(--sky); padding: 4rem 1.5rem; text-align: center; }
+    h1 { margin: 0 0 0.5rem; font-size: 2.2rem; }
+    .tagline { font-size: 1.1rem; opacity: 0.8; }
+    .cta { display: inline-block; margin-top: 1.5rem; padding: 0.8rem 2rem;
+           background: var(--accent); color: white; text-decoration: none;
+           border-radius: 6px; font-weight: 600; }
+    section { padding: 3rem 1.5rem; max-width: 800px; margin: 0 auto; }
+    h2 { font-size: 1.5rem; border-bottom: 2px solid var(--sky); padding-bottom: 0.3rem; }
+    ul { padding-left: 1.2rem; }
+    .grid { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }
+    .card { background: var(--sky); padding: 1rem; border-radius: 6px; }
+    footer { background: var(--ink); color: white; padding: 1.5rem; text-align: center; font-size: 0.9rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>{{CLINIC_NAME}}</h1>
+    <p class="tagline">{{CLINIC_TAGLINE}}</p>
+    <a class="cta" href="/booking">予約する</a>
+  </header>
+
+  <section>
+    <h2>診療内容</h2>
+    <div class="grid">
+      <div class="card"><strong>一般歯科</strong><br>虫歯・歯周病の治療</div>
+      <div class="card"><strong>予防歯科</strong><br>定期検診・クリーニング</div>
+      <div class="card"><strong>小児歯科</strong><br>お子様の歯の健康をサポート</div>
+      <div class="card"><strong>{{SPECIALTY}}</strong><br>{{SPECIALTY_DESCRIPTION}}</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>診療時間</h2>
+    <p>{{HOURS_HTML}}</p>
+  </section>
+
+  <section>
+    <h2>所在地・連絡先</h2>
+    <p>{{ADDRESS}}<br>
+       電話: <a href="tel:{{PHONE_RAW}}">{{PHONE}}</a></p>
+  </section>
+
+  <footer>
+    © {{CLINIC_NAME}}
+  </footer>
+</body>
+</html>

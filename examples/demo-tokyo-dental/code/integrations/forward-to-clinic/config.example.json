@@ -1,0 +1,10 @@
+{
+  "transport": "smtp",
+  "default_sender": "<NOREPLY_ADDRESS>",
+  "smtp_host": "<SMTP_HOST>",
+  "smtp_port": 465,
+  "smtp_username": "<SMTP_USERNAME>",
+  "smtp_password": "<PLACEHOLDER>",
+  "smtp_use_ssl": true,
+  "clinic_inbox": "<CLINIC_EMAIL>"
+}
