@@ -1,0 +1,16 @@
+{
+  "mode": "advise_loop_action",
+  "customer_id": "acme-dental",
+  "request_text": "Validation failed twice with the same structural issues and the current round budget is almost exhausted.",
+  "company_context_summary": "Small dental clinic. Conservative operational posture. Prefer reliable customer-facing output over extra iteration churn.",
+  "structured_inputs": {
+    "current_round": 4,
+    "round_budget": 5,
+    "last_verdict_passed": false,
+    "recent_failure_outcomes": [
+      "failed_verdict",
+      "failed_verdict"
+    ],
+    "validation_backend": "cli"
+  }
+}

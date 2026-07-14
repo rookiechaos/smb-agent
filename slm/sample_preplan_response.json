@@ -1,0 +1,17 @@
+{
+  "workflow_family": "ikida_shipment",
+  "goal_summary": "Review shipment economics and prepare an approval packet before release.",
+  "constraints": [
+    "Do not release shipment documents before human approval.",
+    "Use structured cost inputs only."
+  ],
+  "likely_artifacts": [
+    "shipment_governance_review.json",
+    "shipment_governance_review.md"
+  ],
+  "hitl_recommended": true,
+  "confidence": 0.91,
+  "reasons_public": [
+    "The request requires shipment-cost governance with an approval boundary."
+  ]
+}

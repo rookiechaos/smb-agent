@@ -1,0 +1,12 @@
+{
+  "task_class": "shipment_governance",
+  "risk_band": "high",
+  "workflow_family": "ikida_shipment",
+  "hitl_recommended": true,
+  "confidence": 0.93,
+  "reasons_public": [
+    "The request involves shipment release and gross-margin judgment.",
+    "The matching governed workflow family is Ikida shipment governance.",
+    "Human approval is required before operational document generation."
+  ]
+}

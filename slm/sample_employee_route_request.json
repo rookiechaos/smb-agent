@@ -1,0 +1,10 @@
+{
+  "mode": "route_employee_request",
+  "customer_id": "ikida-co",
+  "request_text": "Please help me sort today's GPS report and daily work summary for the field team.",
+  "company_context_summary": "Agriculture SMB in Japan. Employee-impacting actions remain HITL. Internal workflow routing can be local and lightweight.",
+  "structured_inputs": {
+    "source": "employee_message",
+    "channel": "internal_chat"
+  }
+}

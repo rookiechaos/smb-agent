@@ -1,0 +1,12 @@
+{
+  "mode": "classify_request",
+  "customer_id": "ikida-co",
+  "request_text": "Please review this mikan shipment batch, estimate shipping cost by region, and tell me if the margin looks dangerous before the president approves it.",
+  "company_context_summary": "Agriculture SMB in Japan. Conservative risk posture for payroll, GPS, and shipment release. External writes must stay HITL.",
+  "structured_inputs": {
+    "source": "owner_message",
+    "has_order_csv": true,
+    "has_shipping_rates": true,
+    "has_cost_config": true
+  }
+}

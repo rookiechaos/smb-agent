@@ -1,0 +1,12 @@
+{
+  "refresh_needed": true,
+  "update_kind": "strategy_shift",
+  "confidence": 0.89,
+  "reasons_public": [
+    "The request signals a meaningful change in strategy and risk posture."
+  ],
+  "suggested_fields": [
+    "current_strategy",
+    "risk_tolerance"
+  ]
+}

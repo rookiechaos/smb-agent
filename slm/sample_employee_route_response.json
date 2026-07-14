@@ -1,0 +1,10 @@
+{
+  "route_target": "workflow",
+  "workflow_family": "ikida_gps",
+  "hitl_recommended": false,
+  "confidence": 0.84,
+  "reasons_public": [
+    "The request maps to a known internal field-operations workflow.",
+    "No direct external write or employee-impacting action was requested."
+  ]
+}

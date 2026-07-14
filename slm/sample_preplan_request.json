@@ -1,0 +1,11 @@
+{
+  "mode": "build_preplan",
+  "customer_id": "ikida-co",
+  "request_text": "We need to review today's shipment margin by region before releasing the delivery documents.",
+  "company_context_summary": "Agriculture SMB in Japan. Shipment release must stay HITL. Margin review should be structured and evidence-backed.",
+  "structured_inputs": {
+    "has_orders_csv": true,
+    "has_shipping_rates": true,
+    "has_cost_config": true
+  }
+}

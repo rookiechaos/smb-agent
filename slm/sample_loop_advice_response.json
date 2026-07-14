@@ -1,0 +1,10 @@
+{
+  "loop_action": "escalate",
+  "likely_failure_class": "repeated_validation_churn",
+  "confidence": 0.88,
+  "reasons_public": [
+    "The same validation failure pattern repeated across multiple rounds.",
+    "The remaining round budget is too small to justify another blind retry."
+  ],
+  "suggested_stale_rounds": 3
+}

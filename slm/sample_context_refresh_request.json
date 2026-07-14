@@ -1,0 +1,9 @@
+{
+  "mode": "detect_context_refresh_need",
+  "customer_id": "acme-dental",
+  "request_text": "The company strategy changed and we now prioritize a more conservative risk posture for patient communications.",
+  "company_context_summary": "Dental clinic. Previous strategy emphasized growth and faster response times.",
+  "structured_inputs": {
+    "source": "operator_note"
+  }
+}
