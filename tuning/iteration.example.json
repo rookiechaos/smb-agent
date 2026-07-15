@@ -1,0 +1,13 @@
+{
+  "anneal_temp_creative": 0.7,
+  "anneal_temp_convergence": 0.3,
+  "anneal_temp_final": 0.0,
+  "anneal_stale_rounds": 2,
+  "bridge_orchestrator_enabled": true,
+  "bridge_orchestrator_model": "claude-opus-4-7",
+  "bridge_orchestrator_max_tokens": 512,
+  "bridge_orchestrator_temperature": 0.0,
+  "humanize_enabled": true,
+  "max_humanize_rounds": 3,
+  "notes": "Copy to tuning/iteration.json (fleet-wide) or workspaces/<id>/iteration_tuning.json (per customer). Adjust after pioneer feedback without redeploying."
+}
